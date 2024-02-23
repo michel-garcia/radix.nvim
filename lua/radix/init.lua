@@ -61,7 +61,7 @@ M.get_root_dir = function (path)
             end
         end
     end
-    if M.opts.fallback then
+    if M.opts.fallback and vim.fn.isdirectory(current) ~= 0 then
         return current, false
     end
 end
