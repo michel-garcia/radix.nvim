@@ -2,6 +2,10 @@
 
 Radix, from [Latin](https://en.wikipedia.org/wiki/Latin) [*rādīx*](https://en.wiktionary.org/wiki/radix) ("a root"), is a project root directory finder for [Neovim](https://github.com/neovim/neovim). It automatically attempts to find the root directory of a project when starting Neovim.
 
+## Requirements
+
+- Neovim >= 0.8.0
+
 ## Installation
 
 Using [Lazy](https://github.com/folke/lazy.nvim):
